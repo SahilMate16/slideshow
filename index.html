@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="slide fade" style="display: block;">
+            <img src="./images/nobita.jpg" alt="Slide 1" class="slide-image">
+        </div>
+        <div class="slide fade">
+            <img src="./images/shizuka.jpg" alt="Slide 2" class="slide-image">
+        </div>
+        <div class="slide fade">
+            <img src="./images/sunio.jpg" alt="Slide 3" class="slide-image">
+        </div>
+
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Optional: Add dot indicators -->
+    <div style="text-align:center">
+        <span class="dot" onclick="setSlide(1)"></span> 
+        <span class="dot" onclick="setSlide(2)"></span> 
+        <span class="dot" onclick="setSlide(3)"></span> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
