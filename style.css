@@ -1,4 +1,4 @@
-/* Container for the slideshow */
+
 .slideshow-container {
     position: relative;
     max-width: 100%;
@@ -13,7 +13,7 @@
     height: 500px;
 }
 
-/* Navigation buttons */
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -34,7 +34,6 @@
     border-radius: 3px 0 0 3px;
 }
 
-/* Dot indicators */
 .dot {
     height: 15px;
     width: 15px;
@@ -49,7 +48,7 @@
     background-color: #717171;
 }
 
-/* Fading animation */
+
 .fade {
     animation: fadeEffect 1s;
 }
